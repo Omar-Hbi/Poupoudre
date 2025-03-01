@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/styles_produits.css">
+    <link rel="stylesheet" href="Styles/styles_index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Les produits LaPoupoudre.fr</title>
+    <script src="Scripts/CompteRebours.js"></script>
+</head>
+<body>
+    <header>
+        <div class="menu-un">
+            <div class="title_logo">
+                <a href="index.html"><img class="logo1" src="Medias/Img/logo/poupoudres.png" alt="poupoudre"></a>
+                <a href="index.html"><h1>LaPoupoudre.fr</h1></a>
+            </div>
+            <div class="search_box">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search..." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div class="logo_right">            
+                <a href="login.html" class="logo2"><i class="fa fa-user"></i></a>
+                <a href="comment.html" class="logo2"><i class="fa fa-envelope-o"></i></a>
+                <a href="none.html" class="logo2"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+        </div>
+        <div class="menu-deux">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#">Réseaux</a></li>
+                <li><a href="membres.html">Qui sommes-nous ?</a></li>
+                <li><a href="#">Nouveauté !</a></li>
+                <li><a href="membres.html">Poudres sur étagère</a></li>
+                <li><a href="#">La Poupoudre académie</a></li>            
+            </ul>
+        </div>    
+       </header>  
+    
+    <!--Création d'une section pour chaque catégorie de produits. Chaque section contiendra deux classes. Une propre à la catégorie de produits et une commune appelée "espace".-->
+    <section class="LesClassiques espace">
+        <h2 class="TitreCategoriePoupoudre">Les classiques</h2>
+                    <!--Création d'une div Poupoudre pour chaque article; Elle contient : le nom de la popoudre, son image, son prix, un bouton "Panier"-->
+                    <div class="Poupoudre">
+                        <img class="PoupoudrePicto" src="Medias/Img/poupoudre/SuperFort.png" alt="Produit poupoudre Super Fort">
+                        <p class="TextePoupoudre">Super fort</p>
+                        <div class="BlocPanier">
+                            <p class="Prix">100€/mg</p>
+                        </div>
+                        <!--Création d'un picto Panier. Ce picto aurait normalement dû être un bouton ouvrant une pop-in permettant de sélectionner le nombre de mg de poupoudres souhaité puis d'ajouter cela dans son panier.-->
+                        <div class="BlocPanier">
+                            <img class="PictoPanier" src="Medias/Img/poupoudre/AjouterDansPanier.png" alt="Ajouter dans son panier la poupoudre">
+                        </div>
+                    </div>
+                    <div class="Poupoudre">
+                        <img class="PoupoudrePicto" src="Medias/Img/poupoudre/SuperDrole.png" alt="Produit poupoudre Super Drole">
+                        <p class="TextePoupoudre">Super drôle</p>
+                        <div class="BlocPanier">
+                            <p class="Prix">90€/mg</p>
+                        </div>
+                        <div class="BlocPanier">
+                            <img class="PictoPanier" src="Medias/Img/poupoudre/AjouterDansPanier.png" alt="Ajouter dans son panier la poupoudre">
+                        </div>
+                    </div>
+                    <!--</div>-->
+                    <div class="Poupoudre">
+                        <img class="PoupoudrePicto" src="Medias/Img/poupoudre/SuperIntelligent.png" alt="Produit poupoudre Super Intelligent">
+                        <p class="TextePoupoudre">Super intelligent</p>
+                        <div class="BlocPanier">
+                            <p class="Prix">250€/mg</p>
+                        </div>
+                        <div class="BlocPanier">
+                            <img class="PictoPanier" src="Medias/Img/poupoudre/AjouterDansPanier.png" alt="Ajouter dans son panier la poupoudre">
+                        </div>
+                    </div>
+                    <!--</div>-->
+                    <div class="Poupoudre">
+                        <img class="PoupoudrePicto" src="Medias/Img/poupoudre/SuperLeger.png" alt="Produit poupoudre Super léger">
+                        <p class="TextePoupoudre">Super léger</p>
+                        <div class="BlocPanier">
+                            <p class="Prix">200€/mg</p>
+                        </div>
+                        <div class="BlocPanier">
+                            <img class="PictoPanier" src="Medias/Img/poupoudre/AjouterDansPanier.png" alt="Ajouter dans son panier la poupoudre">
+                    </div>
+                    </div>
+                    <div class="Poupoudre">
+                        <img class="PoupoudrePicto" src="Medias/Img/poupoudre/SuperDiscret.png" alt="Produit poupoudre Super discret">
+                        <p class="TextePoupoudre">Super discret</p>
+                        <div class="BlocPanier">
+                            <p class="Prix">190€/mg</p>
+                        </div>
+                        <div class="BlocPanier">
+                            <img class="PictoPanier" src="Medias/Img/poupoudre/AjouterDansPanier.png" alt="Ajouter dans son panier la poupoudre">
+                        </div>
+                    </div>
+                    <!--</div>-->
+                    <div class="Poupoudre">
+                        <img class="PoupoudrePicto" src="Medias/Img/poupoudre/Superalheure.png" alt="Produit poupoudre Super à l'heure">
+                        <p class="TextePoupoudre">Super à l'heure</p>
+                        <div class="BlocPanier">
+                            <p class="Prix">50€/mg</p>
+                        </div>
+                        <div class="BlocPanier">
+                            <img class="PictoPanier" src="Medias/Img/poupoudre/AjouterDansPanier.png" alt="Ajouter dans son panier la poupoudre">
+                        </div>
+                    </div>
+    </section>
+
+    <section class="LesCoupsDeCoeur espace">
+        <h2 class="TitreCategoriePoupoudre">Les coups de cœur</h2>
+                <!--Création d'une div Poupoudre qui contiendra tous les éléments relatifs au produit : nom, img, prix, bouton pour ajouter dans son panier-->
+                     <div class="Poupoudre">
+                        <img class="PoupoudrePicto" src="Medias/Img/poupoudre/SuperSeduisant.png" alt="Produit poupoudre Super séduisant">
+                        <p class="TextePoupoudre">Super séduisant</p>
+                        <div class="BlocPanier">
+                            <p class="Prix">60€/mg</p>
+                        </div>
+                        <!--L'image représentant un petit panier aurait dû être un bouton affichant une pop-in sur laquelle l'utilisateur pourrait indiquer la quantité de poupoudre souhaitée et l'ajouter dans son panier.-->
+                        <div class="BlocPanier">
+                            <img class="PictoPanier" src="Medias/Img/poupoudre/AjouterDansPanier.png" alt="Ajouter dans son panier la poupoudre">
+                        </div>
+                    </div>
+                    <div class="Poupoudre">
+                        <img class="PoupoudrePicto" src="Medias/Img/poupoudre/SuperStupide.png" alt="Produit poupoudre Super stupide">
+                        <p class="TextePoupoudre">Super stupide</p>
+                        <div class="BlocPanier">
+                            <p class="Prix">20€/mg</p>
+                        </div>
+                        <div class="BlocPanier">
+                            <img class="PictoPanier" src="Medias/Img/poupoudre/AjouterDansPanier.png" alt="Ajouter dans son panier la poupoudre">
+                        </div>
+                    </div>
+                    <div class="Poupoudre">
+                        <img class="PoupoudrePicto" src="Medias/Img/poupoudre/SuperMoche.png" alt="Produit poupoudre Super moche">
+                        <p class="TextePoupoudre">Super moche</p>
+                        <div class="BlocPanier">
+                            <p class="Prix">40€/mg</p>
+                        </div>
+                        <div class="BlocPanier">
+                            <img class="PictoPanier" src="Medias/Img/poupoudre/AjouterDansPanier.png" alt="Ajouter dans son panier la poupoudre">
+                        </div>
+                    </div>
+                    <div class="Poupoudre">
+                        <img class="PoupoudrePicto" src="Medias/Img/poupoudre/SuperDolittle.png" alt="Produit poupoudre Super Dolittle">
+                        <p class="TextePoupoudre">Super Dolittle</p>
+                        <div class="BlocPanier">
+                            <p class="Prix">300€/mg</p>
+                        </div>
+                        <div class="BlocPanier">
+                            <img class="PictoPanier" src="Medias/Img/poupoudre/AjouterDansPanier.png" alt="Ajouter dans son panier la poupoudre">
+                        </div>
+                    </div>
+    </section>
+
+    <section class="LesNouveautés espace">
+        <h2 class="TitreCategoriePoupoudre">Les nouveautés</h2>
+                     <div class="Poupoudre">
+                        <img class="PoupoudrePicto" src="Medias/Img/poupoudre/Poupoudrepouroublier.png" alt="Produit poupoudre poupoudre pour oublier">
+                        <p class="TextePoupoudre">Pour oublier</p>
+                        <div class="BlocPanier">
+                            <p class="Prix">10€/mg</p>
+                        </div>
+                        <div class="BlocPanier">
+                            <img class="PictoPanier" src="Medias/Img/poupoudre/AjouterDansPanier.png" alt="Ajouter dans son panier la poupoudre">
+                        </div>
+                    </div>
+                    <div class="Poupoudre">
+                        <img class="PoupoudrePicto" src="Medias/Img/poupoudre/SuperObservateur.png" alt="Produit poupoudre Super observateur">
+                        <p class="TextePoupoudre">Super observateur</p>
+                        <div class="BlocPanier">
+                            <p class="Prix">30€/mg</p>
+                        </div>
+                        <div class="BlocPanier">
+                            <img class="PictoPanier" src="Medias/Img/poupoudre/AjouterDansPanier.png" alt="Ajouter dans son panier la poupoudre">
+                        </div>
+                    </div>
+                    <div class="Poupoudre">
+                        <img class="PoupoudrePicto" src="Medias/Img/poupoudre/SuperRaleur.png" alt="Produit poupoudre Super râleur">
+                        <p class="TextePoupoudre">Super râleur</p>
+                        <div class="BlocPanier">
+                            <p class="Prix">15€/mg</p>
+                        </div>
+                        <div class="BlocPanier">
+                            <img class="PictoPanier" src="Medias/Img/poupoudre/AjouterDansPanier.png" alt="Ajouter dans son panier la poupoudre">
+                        </div>
+                    </div>
+    </section>
+
+    <section class="ToutesLesPoupoudres espace">
+        <h2 class="TitreCategoriePoupoudre">Toutes nos poupoudres</h2>
+            <div class="ToutesLesPoupoudres1">
+                    <div class="carrouselPoupoudre"> <!--Création d'une nouvelle classe qui permettra de créer le carrousel-->
+                        <img class="PoupoudrePicto" src="Medias/Img/poupoudre/SuperLicorne.png" alt="Produit poupoudre Super licorne">
+                        <p class="TextePoupoudre">Super licorne</p>
+                        <div class="BlocPanier">
+                            <p class="Prix">120€/mg</p>
+                        </div>
+                        <div class="BlocPanier">
+                            <img class="PictoPanier" src="Medias/Img/poupoudre/AjouterDansPanier.png" alt="Ajouter dans son panier la poupoudre">
+                        </div>
+                    </div>
+                    <div class="carrouselPoupoudre">
+                        <img class="PoupoudrePicto" src="Medias/Img/poupoudre/Supersticieux.png" alt="Produit poupoudre Supersticieux">
+                        <p class="TextePoupoudre">Supersticieux</p>
+                        <div class="BlocPanier">
+                            <p class="Prix">66€/mg</p>
+                        </div>
+                        <div class="BlocPanier">
+                            <img class="PictoPanier" src="Medias/Img/poupoudre/AjouterDansPanier.png" alt="Ajouter dans son panier la poupoudre">
+                        </div>
+                    </div>
+                     <div class="carrouselPoupoudre">
+                        <img class="PoupoudrePicto" src="Medias/Img/poupoudre/SuperRadin.png" alt="Produit poupoudre Super radin">
+                        <p class="TextePoupoudre">Super radin</p>
+                        <div class="BlocPanier">
+                            <p class="Prix">1€/mg</p>
+                        </div>
+                        <div class="BlocPanier">
+                            <img class="PictoPanier" src="Medias/Img/poupoudre/AjouterDansPanier.png" alt="Ajouter dans son panier la poupoudre">
+                        </div>
+                    </div>
+                     <div class="carrouselPoupoudre">
+                        <img class="PoupoudrePicto" src="Medias/Img/poupoudre/SuperFort.png" alt="Produit poupoudre Super Fort">
+                        <p class="TextePoupoudre">Super fort</p>
+                        <div class="BlocPanier">
+                            <p class="Prix">100€/mg</p>
+                        </div>
+                        <div class="BlocPanier">
+                            <img class="PictoPanier" src="Medias/Img/poupoudre/AjouterDansPanier.png" alt="Ajouter dans son panier la poupoudre">
+                        </div>
+                    </div>
+                    <div class="carrouselPoupoudre">
+                        <img class="PoupoudrePicto" src="Medias/Img/poupoudre/SuperDrole.png" alt="Produit poupoudre Super Drole">
+                        <p class="TextePoupoudre">Super drôle</p>
+                        <div class="BlocPanier">
+                            <p class="Prix">90€/mg</p>
+                        </div>
+                        <div class="BlocPanier">
+                            <img class="PictoPanier" src="Medias/Img/poupoudre/AjouterDansPanier.png" alt="Ajouter dans son panier la poupoudre">
+                        </div>
+                    </div>
+                    <div class="carrouselPoupoudre">
+                        <img class="PoupoudrePicto" src="Medias/Img/poupoudre/SuperIntelligent.png" alt="Produit poupoudre Super Intelligent">
+                        <p class="TextePoupoudre">Super intelligent</p>
+                        <div class="BlocPanier">
+                            <p class="Prix">250€/mg</p>
+                        </div>
+                        <div class="BlocPanier">
+                            <img class="PictoPanier" src="Medias/Img/poupoudre/AjouterDansPanier.png" alt="Ajouter dans son panier la poupoudre">
+                        </div>
+                    </div>
+                    <div class="carrouselPoupoudre">
+                        <img class="PoupoudrePicto" src="Medias/Img/poupoudre/SuperLeger.png" alt="Produit poupoudre Super léger">
+                        <p class="TextePoupoudre">Super léger</p>
+                        <div class="BlocPanier">
+                            <p class="Prix">200€/mg</p>
+                        </div>
+                        <div class="BlocPanier">
+                            <img class="PictoPanier" src="Medias/Img/poupoudre/AjouterDansPanier.png" alt="Ajouter dans son panier la poupoudre">
+                        </div>
+                    </div>
+                    <div class="carrouselPoupoudre">
+                        <img class="PoupoudrePicto" src="Medias/Img/poupoudre/SuperDiscret.png" alt="Produit poupoudre Super discret">
+                        <p class="TextePoupoudre">Super discret</p>
+                        <div class="BlocPanier">
+                            <p class="Prix">190€/mg</p>
+                        </div>
+                        <div class="BlocPanier">
+                            <img class="PictoPanier" src="Medias/Img/poupoudre/AjouterDansPanier.png" alt="Ajouter dans son panier la poupoudre">
+                        </div>
+                    </div>
+                    <div class="carrouselPoupoudre">
+                        <img class="PoupoudrePicto" src="Medias/Img/poupoudre/Superalheure.png" alt="Produit poupoudre Super à l'heure">
+                        <p class="TextePoupoudre">Super à l'heure</p>
+                        <div class="BlocPanier">
+                            <p class="Prix">50€/mg</p>
+                        </div>
+                        <div class="BlocPanier">
+                            <img class="PictoPanier" src="Medias/Img/poupoudre/AjouterDansPanier.png" alt="Ajouter dans son panier la poupoudre">
+                        </div>
+                    </div>
+                     <div class="carrouselPoupoudre">
+                        <img class="PoupoudrePicto" src="Medias/Img/poupoudre/SuperSeduisant.png" alt="Produit poupoudre Super séduisant">
+                        <p class="TextePoupoudre">Super séduisant</p>
+                        <div class="BlocPanier">
+                            <p class="Prix">60€/mg</p>
+                        </div>
+                        <div class="BlocPanier">
+                            <img class="PictoPanier" src="Medias/Img/poupoudre/AjouterDansPanier.png" alt="Ajouter dans son panier la poupoudre">
+                        </div>
+                    </div>
+                    <div class="carrouselPoupoudre">
+                        <img class="PoupoudrePicto" src="Medias/Img/poupoudre/SuperStupide.png" alt="Produit poupoudre Super stupide">
+                        <p class="TextePoupoudre">Super stupide</p>
+                        <div class="BlocPanier">
+                            <p class="Prix">20€/mg</p>
+                        </div>
+                        <div class="BlocPanier">
+                            <img class="PictoPanier" src="Medias/Img/poupoudre/AjouterDansPanier.png" alt="Ajouter dans son panier la poupoudre">
+                        </div>
+                    </div>
+                    <div class="carrouselPoupoudre">
+                        <img class="PoupoudrePicto" src="Medias/Img/poupoudre/SuperMoche.png" alt="Produit poupoudre Super moche">
+                        <p class="TextePoupoudre">Super moche</p>
+                        <div class="BlocPanier">
+                            <p class="Prix">40€/mg</p>
+                        </div>
+                        <div class="BlocPanier">
+                            <img class="PictoPanier" src="Medias/Img/poupoudre/AjouterDansPanier.png" alt="Ajouter dans son panier la poupoudre">
+                        </div>
+                    </div>
+                    <div class="carrouselPoupoudre">
+                        <img class="PoupoudrePicto" src="Medias/Img/poupoudre/SuperDolittle.png" alt="Produit poupoudre Super Dolittle">
+                        <p class="TextePoupoudre">Super Dolittle</p>
+                        <div class="BlocPanier">
+                            <p class="Prix">300€/mg</p>
+                        </div>
+                        <div class="BlocPanier">
+                            <img class="PictoPanier" src="Medias/Img/poupoudre/AjouterDansPanier.png" alt="Ajouter dans son panier la poupoudre">
+                        </div>
+                    </div>
+                    <div class="carrouselPoupoudre">
+                        <img class="PoupoudrePicto" src="Medias/Img/poupoudre/Poupoudrepouroublier.png" alt="Produit poupoudre poupoudre pour oublier">
+                        <p class="TextePoupoudre">Pour oublier</p>
+                        <div class="BlocPanier">
+                            <p class="Prix">10€/mg</p>
+                        </div>
+                        <div class="BlocPanier">
+                            <img class="PictoPanier" src="Medias/Img/poupoudre/AjouterDansPanier.png" alt="Ajouter dans son panier la poupoudre">
+                        </div>
+                    </div>
+                    <div class="carrouselPoupoudre">
+                        <img class="PoupoudrePicto" src="Medias/Img/poupoudre/SuperObservateur.png" alt="Produit poupoudre Super observateur">
+                        <p class="TextePoupoudre">Super observateur</p>
+                        <div class="BlocPanier">
+                            <p class="Prix">30€/mg</p>
+                        </div>
+                        <div class="BlocPanier">
+                            <img class="PictoPanier" src="Medias/Img/poupoudre/AjouterDansPanier.png" alt="Ajouter dans son panier la poupoudre">
+                        </div>
+                    </div>
+                    <div class="carrouselPoupoudre">
+                        <img class="PoupoudrePicto" src="Medias/Img/poupoudre/SuperRaleur.png" alt="Produit poupoudre Super râleur">
+                        <p class="TextePoupoudre">Super râleur</p>
+                        <div class="BlocPanier">
+                            <p class="Prix">15€/mg</p>
+                        </div>
+                        <div class="BlocPanier">
+                            <img class="PictoPanier" src="Medias/Img/poupoudre/AjouterDansPanier.png" alt="Ajouter dans son panier la poupoudre">
+                        </div>
+                    </div>
+            </div>
+    </section>
+
+    <!--Création d'une section qui contiendra les annonces-->
+    <section class="AnnoncesSurEntreprisePoupoudre">
+        <div class="AnnoncesPoupoudre">
+            <div class="BlocCommerceProximite">
+                <img class="AnnonceCommerceProximite" src="Medias/Img/poupoudre/CommerceProximite.png" alt="LaPoupoudre.fr, une entreprise française valorisant le commerce de proximité.">
+            </div>
+        </div>
+        <div class="AnnoncesPoupoudre">
+            <!--Ajout d'une vidéo présentant les coulisses de la fabrication de la poupoudre. L'attribut autoplay controls permet d'afficher les contrôles par défaut du navigateur. -->
+            <video class="Annonce" autoplay controls>
+                <source src="Medias/Vid/CoulissePoupoudre.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="AnnoncesPoupoudre">
+            <img class="Annonce" src="Medias/Img/poupoudre/MeilleurePoudre2023.png" alt="LaPoupoudre.fr, élue meilleure poudre de l'année 2023.">
+        </div>
+    </section>
+
+    <!--Création d'une section contenant une offre promotionnelle-->
+    <section class="OffrePromotionnellle">
+        <div class="PereNoelCompteRebours">
+            <div class="DecompteOffrePromotionnelle">
+                <h3 class="PromoPoupoudreNoel">Profitez de -20% sur toutes nos poupoudres jusqu'à l'arrivée du Père Noël</h3>
+            <!--Création d'un compte à rebours avec du code JS-->
+            <div class="BlocCompteReboursParent">
+                    <div class="BlocCompteRebours">
+                        <p id="days" class="countvalue"></p>
+                    </div>
+                    <div class="BlocCompteRebours">
+                        <p id="hours" class="countvalue"></p>
+                    </div>
+                    <div class="BlocCompteRebours">
+                        <p id="minutes" class="countvalue"></p>
+                    </div>
+                    <div class="BlocCompteRebours">
+                        <p id="seconds" class="countvalue"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Création d'une section contenant les blocs Carte cadeau et Programme fidélité VIPoupoudre-->
+    <section class="CarteCadeauEtProgrammeFidelite">
+            <div class="CarteCadeau_CompteVIPoupoudre">
+                <div class="ImageTexteCarteCadeau">
+                    <img class="Fidelite_ViPoupoudre" src="Medias/Img/poupoudre/CarteCadeau.png" alt="Carte cadeau de LaPoupoudre.fr">
+                </div>
+                <div class="ImageTexteCarteCadeau">
+                    <div class="CarteFidelite">
+                        <h4>Carte cadeau</h4>
+                        <p>Pour partager votre amour de la poupoudre avec vos proches.</p>
+                    </div>
+                </div>
+            </div>
+        <div class="CarteCadeau_CompteVIPoupoudre">
+            <div class="ImageTexteCarteCadeau">
+                    <img class="Fidelite_ViPoupoudre" src="Medias/Img/poupoudre/VIPoupoudre.png" alt="Compte prime de LaPoupoudre.fr">
+            </div>
+            <div class="ImageTexteCarteCadeau">
+                <div class="CarteFidelite">
+                    <h4>Compte VIPoupoudre</h4>
+                    <p>Offrez-vous un abonnement Poupoudre Prime et bénéficiez de la livraison offerte et bien plus...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-col">
+                <h4>Besoin d'aide ?</h4>
+                <ul>
+                    <li><a href="none.html">Voir ou suivre vos commandes</a></li>
+                    <li><a href="none.html">Tarifs et options de livraison</a></li>
+                    <li><a href="none.html">Poupoudre Prime</a></li>
+                    <li><a href="none.html">Retours et remplacements</a></li>
+                    <li><a href="none.html">Service Client</a></li>
+                    <li><a href="none.html">Accessibilité</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Guide d'achat</h4>
+                <ul>
+                    <li><a href="inder.html">Créer un compte</a></li>
+                    <li><a href="none.html">Cartes cadeaux</a></li>
+                    <li><a href="none.html">Paiements</a></li>                        
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Notre localisation</h4>
+                <div class="address">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.5154957500827!2d3.147941076415201!3d50.6361167716282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d7c30fc740db%3A0x13662f4d3ead827d!2sLe%20bois%20du%20parc%20urbain!5e0!3m2!1sfr!2sfr!4v1699267868996!5m2!1sfr!2sfr"></iframe>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Retrouvez-nous</h4>
+                <div class="soacial-links">
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+   </footer>
+</body>
+</html>

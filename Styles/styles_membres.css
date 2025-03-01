@@ -1,0 +1,79 @@
+body{
+  background: #efefef;
+}
+h3{
+  font-size: 40px;
+  letter-spacing: 0.1em;
+  margin: 50px 50px 50px 50px;
+}
+p{
+  text-align: justify;
+  font-size: 18px;
+  width: 350px;
+  height: 100px;
+}
+
+/* Dimension et positionnement images de la page membres */
+
+  .membresequipe {    
+    position: absolute;
+    padding: 5px 3em 5px ;
+    width: 200px;
+    height: 200px;
+  }
+
+
+
+/* Dimension et positionnement prénom du membre */
+
+  .text-box {      
+    /* haut | droit | bas | gauche */
+    padding: 0 20em 2em;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+
+
+/* Dimension et positionnement description rôle du membre */
+
+  .roleequipe {    
+    padding : 25px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+
+/* Appliquer les mêmes marges/alignements/espaces entre les photos et textes rôles des membres */
+
+ .wrapper {
+    display: inline-block;
+    margin: 50px auto; 
+    width: 70%;
+  }
+
+
+
+/* Définir la taille des 2 images de chacun des membres */
+
+  .emotion_box img {
+    width: 200px;
+  }
+
+
+
+/* Faire apparaître la 2e image au survol de la 1e image */
+
+  .emotion_box :nth-child(2n) {
+  opacity: 0;
+  }
+
+  .emotion_box:hover :nth-child(2n) {
+  opacity: 1;
+  }
+
+

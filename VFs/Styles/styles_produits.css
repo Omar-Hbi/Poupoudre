@@ -1,0 +1,359 @@
+input[type="search"] {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 5px;
+    width: 200px;
+  }
+  
+
+/*CSS pour les différents produits*/
+
+  .espace {
+    padding: 0 2rem;
+    /* haut | horizontal | bas */
+    margin: 3em auto 2em;
+  }
+
+  .Poupoudre {
+    /*width:13.5rem; /*Gestion de la largeur*/
+    min-width: 11.5rem; /*Largeur minimale*/
+    min-height: 9rem; /*Hauteur minimale*/
+    max-height: 14rem; /*Hauteur maximale*/
+    max-width: 5rem; /*Largeur maximale*/
+    display: inline-block; /*Permet d'aligner les blocs*/
+    vertical-align: middle; /*Définition de l'alignement vertical*/
+    margin-block: 15px; /*Définition de la marge sur les côtés de l'élément qui sont ceux de l'axe de bloc.*/
+    margin-inline: 5px; /*Définition de la marge sur les côtés de l'élément qui sont ceux de l'axe en ligne.*/
+    background-color: #FFFFFF; /*Couleur de fond de l'élément*/
+    border-radius: 15px; /*Courbe de l'arrondi des coins de l'élément*/
+    box-shadow : 0 0 2rem rgba(115,129,136,.2); /*Ajout d'ombres autour de l'élément*/
+    padding: 8px 13px 13px; /*Gestion des écarts de remplissage d'un élément*/
+  }
+
+  .PoupoudrePicto {
+    display: block;
+    margin: auto;
+    width: 120px;
+    height: 120px;
+
+  }
+
+  .TextePoupoudre {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  /*CSS pour les annonces*/
+
+  .Annonce {
+    /*display: block;
+    margin: auto;*/
+    width: 435px;
+    height: 435px;
+  }
+
+  .AnnonceCommerceProximite {
+    width: 435px;
+    height: 435px;
+  }
+
+  .AnnoncesPoupoudre {
+    display: inline-block;
+    /* haut | horizontal | bas */
+    padding: 4em 2em 4em;
+    position: relative;
+  }
+
+  /*.BlocCommerceProximite {
+    position: relative;
+  }*/
+
+  /*Rendre la seconde image Commerce de Proximité invisible et régler les propriétés de transition*/
+  /*.BlocCommerceProximite img:nth-child(2){
+    /*position: absolute;*/
+    /*z-index: 2;*/
+    /*right: 0;*/
+  /*  opacity: 0;
+    transition: opacity ease 1s;
+  }
+
+  /*Afficher la seconde image Commerce de proximité*/
+  /*.BlocCommerceProximite:hover img:nth-child(2){
+    opacity: 1;
+  }*/
+
+ /* img.AnnonceCommerceProximite{
+    position: absolute;
+  }
+
+  /*.Annonce:hover {
+    width: 450px;
+    height: 450px;
+  }
+
+  /*CSS pour la carte cadeau et le programme VIPoupoudre*/
+
+  
+
+  /* Début CSS pour le carrousel de la page Produits*/
+
+  .ToutesLesPoupoudres1 {
+    display: flex; /*Capacité d'un élément flexible à modifier ses dimensions afin de remplir l'espace disponible dans son conteneur.*/
+    overflow-x: scroll; /*Définition des mécanismes à utiliser. Ici, le contenu est rogné pour tenir horizontalement dans l'élément. Le navigateur affiche aussi une barre de défilement.*/
+    padding: 1rem 0;
+    scroll-snap-type: x mandatory;
+}
+
+.carrouselPoupoudre {
+    flex: 1 0 250px;
+    margin-left: 1rem;
+    scroll-snap-align: start; /*Définition de la position de la boîte d'accroche.*/
+    width:13.5rem;
+    min-width: 11.5rem;
+    min-height: 9rem;
+    max-height: 14rem;
+    max-width: 5rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin-block: 15px;
+    margin-inline: 5px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow : 0 0 2rem rgba(115,129,136,.2);
+    padding: 8px 13px 13px;
+}
+
+/*Couleur de fond de la barre de défilement.*/
+::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+}
+
+
+/*Hauteur de la barre de défilement*/
+::-webkit-scrollbar {
+    height: 6px;
+    background-color: #F5F5F5;
+}
+
+/**/
+::-webkit-scrollbar-thumb {
+    background-color: #3d4852;
+    border-radius: 3px;
+}
+
+  /* Début CSS pour le carrousel de la page Produits*/
+
+  /*.LesClassiques {
+    padding: 50px 70px 70px;
+    background-color: #efefef;
+    border-radius: 15px;
+  }*/
+
+  /*.NosProduits {
+    padding: 50px 70px 70px;
+    background-color: #efefef;
+    border-radius: 15px;
+  }*/
+
+ /* .Poupoudre:hover {
+   /* background color : #efefef;
+    opacity: 0,33;*/
+
+  .TitreCategoriePoupoudre {
+    font-family: Sana Sans Black,Helvetica,Arial,sans-serif;
+  }
+
+  .Poupoudre:hover {
+    background-color: #D4D2D2;
+    color: #616060;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    opacity: 0,33;
+  }
+
+  .TextePoupoudre {
+    font-weight: bold;
+  }
+
+  .carrouselPoupoudre:hover {
+    background-color: #D4D2D2;
+    color: #616060;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+  }
+
+  .PrixPoupoudre {
+    background: #4EA464;
+    color: white;
+    border-radius: 2px;
+    font-family: Sana Sans Alt Regular,Helvetica,Arial,sans-serif; /*Police de caractères*/
+    max-width: 4rem;
+    min-width: 4rem;
+  }
+
+  /*Carte de fidélité et Carte VIPoupoudre*/
+
+  /*Aligner image et texte*/
+  .ImageTexteCarteCadeau {
+    display: inline-block;
+  }
+
+  /*.BlocsFidelitesPrime {
+    /*margin-left: auto;
+    margin-right: auto;*/
+    /*padding: 1em 11em;*/
+
+  /*.CarteCadeauEtProgrammeFidelite {
+    margin-left: auto;
+    margin-right: auto;
+  }*/
+
+
+  .AnnoncesSurEntreprisePoupoudre {
+    display: flex;
+    justify-content: space-evenly; /* Même espace entre chaque élément */
+  }
+
+  .CarteCadeauEtProgrammeFidelite {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  /*Aligner blocs Carte cadeau et Carte VIP*/
+
+  .CarteCadeau_CompteVIPoupoudre {
+    display: inline-block;
+    /* haut | horizontal | bas */
+    padding: 1em 2em 1em;
+    margin-block: 15px;
+    margin-inline: 5px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow : 0 0 2rem rgba(115,129,136,.2);
+  }
+
+  .CarteCadeau_CompteVIPoupoudre:hover {
+    background-color: #D4D2D2;
+    color: #616060;
+    /*-ms-transform: scale(1.1); /* IE 9 */
+   /* -webkit-transform: scale(1.1); /* Safari 3-8 */
+   /* transform: scale(1.1);*/
+    opacity: 0,33;
+  }
+
+
+  .Fidelite_ViPoupoudre {
+    width: 115px;
+    height: 115px;
+    vertical-align: middle;
+  }
+
+  .CarteFidelite {
+    text-align: justify;
+    /*padding: 2em 6em 2em;*/
+    margin-left: 1em;
+    /*margin-right: 1em;*/
+    margin-top: 1em;
+  }
+
+  /*Bloc Ajouter dans son panier*/
+
+  .BlocPanier {
+    display: inline-block;
+     padding: 2px 8px 2px;
+  }
+  .Prix{
+    margin-top: 1px;
+    font-weight:bold;
+  }
+
+  .PictoPanier {
+    width: 30px;
+    height: 30px;
+    margin-left: 3em;
+    margin-top: 1px;
+  }
+
+  /*Gérer la taille et la position de l'image indiquant que le produit n'est plus disponible*/
+  .PoupoudreVictimeSucces img {
+    width: 100em;
+    height: 50em;
+  }
+
+  .PoupoudreVictimeSucces {
+    text-align: center;
+  }
+
+/*Mise en forme de l'ensemble Décompte pour l'arrivée des Poupoudres spéciales Noël*/
+.countvalue{
+  text-align: center;
+  margin:20px 20px;
+  vertical-align: middle;
+  margin-top: 30px;
+  font-size: 1.5em;
+  font-weight: bold;
+  /*margin-left: auto;
+  margin-right: auto;*/
+}
+
+.BlocCompteReboursParent {
+  display: flex;
+  flex-direction: row; /* Affichage des sous-éléments en ligne. */
+  justify-content: center; /* Aligne tous les enfants au centre. */
+}
+
+.BlocCompteRebours{
+  display: flex;
+  justify-content: center;
+  width:13.5rem;
+  min-width: 8rem;
+  min-height: 5rem;
+  max-height: 14rem;
+  max-width: 5rem;
+  vertical-align: middle;
+  margin-block: 15px;
+  margin-inline: 5px;
+  background-color: #F7F2D9;
+  border-radius: 15px;
+  /*Ajout d'un effet d'ombre autour des blocs*/
+  box-shadow : 0 0 3rem rgba(115,129,136,.2);
+  /*box-shadow : 0 0 1rem darkgreen;*/
+  padding: 8px 13px 13px;
+  /*z-index: 2;*/
+  /*vertical-align: middle;*/
+}
+
+.DecompteOffrePromotionnelle {
+  /*margin: auto;*/
+  /*display: inline-block;*/
+  background-color: #FFFF;
+  border-radius: 15px;
+  padding: 4em 25em 2em;
+  margin: 1em 2em 4em;
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  /*width: 6em*/
+  /*z-index: 1;*/
+  background-image: url(../ImagePromo/PoupoudreNoel3.png);/*Image de fond du bloc contenant l'offre promotionnelle spéciale Noël.*/
+  background-repeat: no-repeat; /*Image qui ne s'affiche qu'une seule fois*/
+  background-position: center top; /*Image de fond*/
+  background-size: 100% auto; /*L'image prend 100% du background*/
+}
+
+/*.PerePoupoudre {
+  width: 400px;
+  height: 500px;
+  z-index: 3;
+  /* haut | droit | bas | gauche */
+  /*margin: 0 0 300em 1em;
+  position: absolute;
+}*/
+
+.PromoPoupoudreNoel{
+  color: #FFFF;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 1px 1px 2px darkgreen; /*Ajout d'un effet d'ombres pour mettre en valeur le texte.*/
+}

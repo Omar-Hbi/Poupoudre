@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: #efefef;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+.logo{
+    width: 200px;
+    margin: 30px 30px;
+    cursor: pointer;
+}
+.container h1{
+    font-size: 50px;
+    display: inline;
+}
+.content{
+    top: 50%;
+    position: absolute;
+    transform: -50%;
+    color: yellow;
+}
+.contact h1{
+    font-size: 64px;
+    font-weight: 600;
+}
+.content h1 span{
+    color: #ff3753;
+}
+.content button{
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    padding: 12px 25px;
+    color: #fff;
+}
+.content button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}

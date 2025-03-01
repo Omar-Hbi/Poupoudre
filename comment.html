@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/styles_comment.css">
+    <script src="Scripts/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+  <section class="contact">
+      <div class="container">
+        <h2>Contactez-nous</h2>
+        <!-- ajout d'un formulaire de contact qui ouvre un mail -->
+        <div class="contact-wrapper">
+          <div class="contact-form">
+            <h3>Envoyez-nous un message</h3>
+            <form>
+              <div class="form-group">
+                <label for="Name">Votre nom</label>
+                <input type="text" id="Name" name="Name" maxlength="100" required="">
+              </div>
+              <div class="form-group">
+                <label id="lblMessage" for="Message">Votre message (350 caractères max.)</label>
+                <textarea id="Message" name="Message" onkeypress="countWordMessage(this);" onkeydown="countWordMessage(this);" rows="6" maxlength="350" required=""></textarea>
+              </div>
+            
+              <script>  /* pour appeler simplement la fonction de changement du nombre de mots dans le label lblMessage */
+              loadFunction();</script>
+              <div>
+                <button id="btnSend" title="Envoyer" type="button" onclick=" sendEmail(document.getElementById('Name').value,document.getElementById('Message').value);">Envoyer</button>
+                <button type="button"><a href="index.html">Page d'accueil</a></button>
+              </div>
+              <div id="cursor" class="cursor"></div>
+            </form>
+          </div>
+          <div class="contact-info">
+            <h3>Nos coordonnées</h3>
+            <p><i class="fa fa-phone"></i><strong>Adresse:</strong> Le bois du parc urbain, Lille</p>
+            <p><i class="fa fa-envelope"></i><strong>Numéro de téléphone:</strong> +33 611 223 344</p>
+            <p><i class="fa fa-map-marker"></i><strong>Adresse électronique:</strong> Poupoudre@gmail.com</p>
+          </div>
+        </div>
+      </div>
+  </section>    
+</body>
+</html>
